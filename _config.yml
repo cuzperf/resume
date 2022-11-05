@@ -3,19 +3,15 @@
 # Site
 language: zh-CN
 
-shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-favicon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-
 # 主题
 theme: resume
 theme_config:
   robots: index,follow
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://resume.js.org
+url: https://cuzperf.cn/resume
 # url: http://localhost:4000
-root: /
+root: /resume/
 permalink: posts/:title/
 tag_dir: tags
 archive_dir: archives
@@ -33,7 +29,6 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 auto_spacing: false # Add spaces between asian characters and western characters
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
 max_open_file: 100
 multi_thread: true
 filename_case: 0
@@ -110,10 +105,10 @@ import:
   - "<meta name='msapplication-TileColor' content='#1BC3FB'>"
   - "<meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/browserconfig.xml'>"
   link:
-  - "<link rel='shortcut icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/favicon.ico'>"
-  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/favicon-32x32.png'>"
-  - "<link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/apple-touch-icon.png'>"
-  - "<link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/safari-pinned-tab.svg'>"
+  - "<link rel='shortcut icon' type='image/x-icon' href='https://cuzperf.cn/img/favicon.ico'>"
+  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='https://cuzperf.cn/img/cuzperf.png'>"
+  - "<link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cuzperf.cn/img/cuzperf.png'>"
+  - "<link rel='mask-icon' color='#1BC3FB' href='https://cuzperf.cn/img/cuzperf.png'>"
   - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>"
   # script:
 
@@ -137,20 +132,19 @@ offline:
       options:
         origin: cdnjs.cloudflare.com
 
-nofollow:
-  enable: true
-  exclude:
-    - xaoxuu.com
+# nofollow:
+#   enable: true
+#   exclude:
+#     - xaoxuu.com
 
 
 # npm i hexo-neat
-neat_enable: true
-
+neat_enable: false
 
 
 # 图片懒加载
 lazyload:
-  enable: true
+  enable: false
   onlypost: false
   loadingImg: https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
 
@@ -162,8 +156,8 @@ lazyload:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   - type: git
-    repo: https://github.com/xaoxuu/resume.js.org.git
-    branch: master
+    repo: git@github.com:cuzperf/resume.git
+    branch: gh-pages
     message: update pages
 
 feed:

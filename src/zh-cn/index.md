@@ -2,239 +2,76 @@
 # 语言 （可选）
 lang: zh-cn
 # 网页关键词和描述
-keywords: 简历主题,Hexo主题,简历模板
-description: 这是一个在线简历模板（Hexo博客主题）。
+keywords: 简历, Hexo
+description: 18817337226 &nbsp cuzperf@outlook.com
 # 简历标题
-resume_title: Jon Snow's Resume
+resume_title: 陈智鹏的简历
 # 应聘者姓名
-name: Jon Snow
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+name: 陈智鹏
+avatar: ../img/cuzperf.jpg
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
-    text: https://resume.js.org
-    url: https://resume.js.org/zh-cn/
+    text: cuzperf.cn
+    url: https://cuzperf.cn
   # 邮箱
   - icon: fas fa-envelope
-    text: your email
-    url:
+    text: cuzperf@outlook.com
+    url: mailto:cuzperf@outlook.com
   # 电话号码
   - icon: fas fa-phone-alt
-    text: 1xxxxxxxxxx
-    url: tel:10086
+    text: 18817337226
+    url: tel:18817337226
 # PDF下载链接
 download:
-  title: 下载本站源码
+  title: 下载简历
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/resume-docs
+  url: 陈智鹏的简历.pdf
 ---
-
-{% raw %}
-<center>
-<a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
-</center>
-{% endraw %}
-
-
-
-## <i class="fas fa-flag"></i> 开始使用
-
-由于本主题与普通 Hexo 主题有较大区别，建议请直接下载本站的源码，参考源码进行改写。
-
-- 本站源码：https://github.com/xaoxuu/resume-docs
-- 主题源码：https://github.com/xaoxuu/hexo-theme-resume
-
-也可以创建全新的博客，通过 `npm` 命令安装：
-
-```bash
-npm i hexo-theme-resume
-```
-
-然后删除多余的依赖包（重要），打开 `package.json` 复制并全部替换为以下内容：
-
-```json
-{
-  "name": "hexo-site",
-  "private": true,
-  "hexo": {
-    "version": "5.0.0"
-  },
-  "scripts": {
-    "start": "hexo server",
-    "build": "node pre-deploy.js && hexo clean && hexo generate",
-    "deploy": "npm run build && hexo deploy"
-  },
-  "engines": {
-    "node": ">=8.9.0"
-  },
-  "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-all-minifier": "^0.5.3",
-    "hexo-autonofollow": "^1.0.1",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-fs": "^3.1.0",
-    "hexo-lazyload-image": "^1.0.9",
-    "hexo-offline": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
-  }
-}
-```
-
-然后输入 `npm i` 安装依赖包。
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
-**XX大学 X学院 X系 X专业 X年毕业**
+- 2015.9 ~ 2021.6 复旦大学 方向：基础数学非交换代数 直博（结业，无双证）
+- 2011.9 ~ 2015.7 华东理工大学 专业：数学与应用数学 学历：学士
+
+## <i class="fas fa-briefcase"></i> 工作经历
 
 
-## <i class="fas fa-user-tie"></i> 工作经验
+2021.07.07 ~ 2022.10.24 声网 Agora
 
+- log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。
+- 利用内部 trace 工具配合 [perfetto](https://www.ui.perfetto.dev/#!/) 协助分析问题
+- 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
+- 修复一些 QA 或者客户报的音视频方面的 Bug
+- 在特殊版上提供主动增加延迟的私有参数
+- 借助 log 和堆栈信息结合汇编和源代码协助处理 crash 和 ANR 等稳定性问题
+- windows arm64 的编译工作（基于 gn-ninja 编译系统）
 
-#### 2000年 ~ 至今：XX公司
+<div STYLE="page-break-after: always;"></div>
 
-- 主要负责XXX
-- 也负责XXX
+## <i class='fas fa-trophy'></i> 荣誉证书
 
-
-#### 1900年 ~ 2000年：XX公司
-
-- 主要负责XXX
-- 也负责XXX
-
-#### 1800年 ~ 1900年：XX公司
-
-- 主要负责XXX
-- 也负责XXX
-
-
-## <i class="fas fa-award"></i> 精选项目
-
-
-{% raw %}
-<btns rounded>
-<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
-  心率管家
-</a>
-<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
-</a>
-<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
-</a>
-<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
-  LinkSmart
-</a>
-<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
-  HitFit
-</a>
-<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
-</a>
-</btns><br>
-{% endraw %}
-
-
-### A项目
-
-#### 2000/01 ~ 2019/01：于XX公司开发，团队项目，维护至今
-
-啦啦啦
-
-### B项目
-
-#### 1900/01 ~ 2000/01：于XX公司开发
-
-啦啦啦
-
-### C项目
-
-#### 1800/01 ~ 1900/01：于XX公司开发
-
-啦啦啦
+- 2014.11 ACM-ICPC 国际大学生程序设计竞赛广州赛区银奖（28 名）
+- 2014.10 ACM-ICPC 国际大学生程序设计竞赛西安赛区银奖（30 名）
+- 2014.08 ACM-ICPC 国际大学生程序设计竞赛上海邀请赛金奖
+- 2012.12 全国部分地区大学生物理竞赛（非专业A组）二等奖
+- 2012.12 全国大学生数学竞赛上海赛区三等奖
 
 ## <i class="fab fa-github"></i> 开源贡献
 
+- 给 [oi-wiki](https://oi-wiki.org/) 贡献过[页面](https://oi-wiki.org/dp/opt/quadrangle/)
+- 给 [C++ 白皮书](https://github.com/Cpp-Club/Cxx_HOPL4_zh/commit/7da2e9889b51043f6834322004a24b2e7bad776a) 修了一个逻辑错误
+- 完善给当前简历模版 [resume-docs](https://github.com/xaoxuu/resume-docs/commit/966a3e46f6f3e209875547c850b12c1ed972cf8a) 和主题 [hexo-theme-resume](https://github.com/xaoxuu/hexo-theme-resume/commit/cb818740b7912983e58ed025048b0eb9d1b91821)
+- 给 [cf-tool](https://github.com/izlyforever/cf-tool/releases/tag/v1.0.5) 提供了最新适配包
+- 给 gcc 提交过 constexpr 的 [bug](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105565)，但由于无法避免就直接关了
+- 竞赛级 [cpp 库](https://github.com/izlyforever/cpplibforCP)，并提供[文档](https://izlyforever.github.io/cpplibforCP/)
+- 给 [spdlog](https://github.com/gabime/spdlog) 提了 [PR](https://github.com/gabime/spdlog/pull/2417)，但是作者拒绝了
 
-### Volantis
+## <i class="fas fa-user-tie"></i> 自我评价
 
-#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
-
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
-
-### ProHUD
-
-#### 2019/08 ~ 至今，易于定制、接口简单的HUD库
-
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
-
-<fancybox>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot04.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot05.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot06.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot07.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
-</fancybox>
-
-## <i class="fas fa-phone-alt"></i> 与我联系
-
-目前状态为：在职，考虑换工作，100年内可到岗。
-
-<i class="fas fa-envelope fa-fw"></i> your email
-<i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-## 主题配置
-
-```yaml
-cdn:
-  # These base libraries cannot be deleted
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
-  # When these CDN resources are deleted, local resources are loaded.
-  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
-  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
-  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
-  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
-  # Optional plug-in: image zoom
-  fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
-
-# robots meta tag
-robots: noindex,nofollow
-
-# the footer of your site
-copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
-```
-
-## 评论
-
-{% raw %}
-<script src="https://utteranc.es/client.js"
-        repo="xaoxuu/hexo-theme-resume"
-        issue-number="18"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-{% endraw %}
+- 较为熟悉 C99/C++17，码风规范，注重代码质量（在现代编译器的帮助下）
+- 能通过 perf/perfetto, WPR/WPA, instruction/speedscope, trace 等工具找出程序瓶颈， 并对其从算法设计、算法实现、多线程等方面作性能调优，并且写出易读且易于编译器优化的代码
+- 会一些简单的 Python 使用（用于 gn-ninja 构建系统）
+- 全 pc 平台简单的调试解决问题的能力（通过看堆栈和寄存器的值，对照不同 arch 的汇编手册分析）
+- 持续写博客，记录总结工作和学习中学到的技术
+- 现阶段还有很多计算机底层知识未学习（例如：网络，数据库），无法独当一面，需要工作中自顶向下以及平时自底向上不断学习。
