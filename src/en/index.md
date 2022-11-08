@@ -38,12 +38,14 @@ download:
 
 2021.07.07 ~ 2022.10.24 Agora.io
 
+- Statistical optimization: Through a data structure similar to RingBuffer, the cpu ratio of the statistical module is reduced from 2% to 0.1%
+- Through trace analysis, it is found that the location information in the transfer thread that counts. After optimization, the actual measurement of this part of the cpu accounts for 1/3 of the original.
 - log refactor: thread-safe, hierarchical loglevel early return, support scrite key and configuration delivery, enable Wformat, specification interface, refine details, refine spdlog, Complete internal documentation
 - Use internal trace with [perfetto](https://www.ui.perfetto.dev/#!/) to assist in problem analysis
 - Find potential bugs with the help of some complie options of clang. Keep stability in owned to sanitizer like Asan, Lsan, Msan, Tsan, UBsan
-- fix some bugs report by QA or Customers
-- Support scrite key of big delay in special version
+- Add feature: big delay in special version
 - help fix crash and ANR using log and dump
+- fix some bugs report by QA or Customers
 - support compile for windows arm64 (base on gn-ninja build system)
 
 <div STYLE="page-break-after: always;"></div>
@@ -61,7 +63,7 @@ download:
 - adapt codeforces new format and language for [cf-tool](https://github.com/izlyforever/cf-tool/releases/tag/v1.0.5)
 - report [issue about constexpr](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105565) to gcc, but closed with unsolved
 - write small [cpplib](https://github.com/izlyforever/cpplibforCP) at competition level, and [document](https://izlyforever.github.io/cpplibforCP/)
-- [PR](https://github.com/gabime/spdlog/pull/2417) to [spdlog](https://github.com/gabime/spdlog) but refused
+- [PR](https://github.com/gabime/spdlog/pull/2417) about thread name to [spdlog](https://github.com/gabime/spdlog) but refused
 
 ## <i class="fas fa-user-tie"></i> Self-Evaluation
 

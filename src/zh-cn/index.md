@@ -39,12 +39,14 @@ download:
 
 2021.07.07 ~ 2022.10.24 声网 Agora
 
+- 统计优化：通过类似 RingBuffer 的数据结构，把统计模块 cpu 占比从 2% 降到 0.1%
+- 通过 trace 分析出，转线程中 Location 信息占比较大，优化后实测这部分 cpu 占比成原来的 1/3
 - log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。
 - 利用内部 trace 工具配合 [perfetto](https://www.ui.perfetto.dev/#!/) 协助分析问题
 - 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
-- 修复一些 QA 或者客户报的音视频方面的 Bug
-- 在特殊版上提供主动增加延迟的私有参数
+- 在特殊版上提供主动增加延迟的功能（远比想象中复杂）
 - 借助 log 和堆栈信息结合汇编和源代码协助处理 crash 和 ANR 等稳定性问题
+- 修复一些 QA 或者客户报的音视频方面的 Bug
 - windows arm64 的编译工作（基于 gn-ninja 编译系统）
 
 <div STYLE="page-break-after: always;"></div>
@@ -59,13 +61,13 @@ download:
 
 ## <i class="fab fa-github"></i> 开源贡献
 
-- 给 [oi-wiki](https://oi-wiki.org/) 贡献过[页面](https://oi-wiki.org/dp/opt/quadrangle/)
+- 给 [oi-wiki](https://oi-wiki.org/) 贡献过[平行四边形优化DP页面](https://oi-wiki.org/dp/opt/quadrangle/)
 - 给 [C++ 白皮书](https://github.com/Cpp-Club/Cxx_HOPL4_zh/commit/7da2e9889b51043f6834322004a24b2e7bad776a) 修了一个逻辑错误
 - 完善给当前简历模版 [resume-docs](https://github.com/xaoxuu/resume-docs/commit/966a3e46f6f3e209875547c850b12c1ed972cf8a) 和主题 [hexo-theme-resume](https://github.com/xaoxuu/hexo-theme-resume/commit/cb818740b7912983e58ed025048b0eb9d1b91821)
 - 给 [cf-tool](https://github.com/izlyforever/cf-tool/releases/tag/v1.0.5) 提供了最新适配包
 - 给 gcc 提交过 constexpr 的 [bug](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105565)，但由于无法避免就直接关了
 - 竞赛级 [cpp 库](https://github.com/izlyforever/cpplibforCP)，并提供[文档](https://izlyforever.github.io/cpplibforCP/)
-- 给 [spdlog](https://github.com/gabime/spdlog) 提了 [PR](https://github.com/gabime/spdlog/pull/2417)，但是作者拒绝了
+- 给 [spdlog](https://github.com/gabime/spdlog) 提了线程名相关的 [PR](https://github.com/gabime/spdlog/pull/2417)，但是作者拒绝了
 
 ## <i class="fas fa-user-tie"></i> 自我评价
 
