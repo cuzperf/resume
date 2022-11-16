@@ -41,12 +41,12 @@ download:
 
 - 统计优化：通过类似 RingBuffer 的数据结构，把统计模块 cpu 占比从 2% 降到 0.1%
 - 通过 trace 分析出，转线程中 Location 信息占比较大，优化后实测这部分 cpu 占比成原来的 1/3
-- log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。
 - 利用内部 trace 工具配合 [perfetto](https://www.ui.perfetto.dev/#!/) 协助分析问题
-- 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
-- 在特殊版上提供主动增加延迟的功能（远比想象中复杂）
+- log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。
 - 借助 log 和堆栈信息结合汇编和源代码协助处理 crash 和 ANR 等稳定性问题
-- 修复一些 QA 或者客户报的音视频方面的 Bug
+- 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
+- 增加上行音频分段延迟统计功能
+- 在特殊版上提供主动增加延迟的功能（远比想象中复杂）
 - windows arm64 的编译工作（基于 gn-ninja 编译系统）
 
 <div STYLE="page-break-after: always;"></div>
@@ -71,7 +71,7 @@ download:
 
 ## <i class="fas fa-user-tie"></i> 自我评价
 
-- 较为熟悉 C99/C++17，码风规范，注重代码质量（在现代编译器的帮助下）
+- 熟悉 C99/C++17，码风规范，注重代码质量（在现代编译器的帮助下）
 - 能通过 perf/perfetto, WPR/WPA, instruction/speedscope, trace 等工具找出程序瓶颈， 并对其从算法设计、算法实现、多线程等方面作性能调优，并且写出易读且易于编译器优化的代码
 - 会一些简单的 Python 使用（用于 gn-ninja 构建系统）
 - 全 pc 平台简单的调试解决问题的能力（通过看堆栈和寄存器的值，对照不同 arch 的汇编手册分析）
