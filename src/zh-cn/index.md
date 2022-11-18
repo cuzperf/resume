@@ -31,7 +31,7 @@ download:
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
-- 2015.9 ~ 2021.6 复旦大学 方向：基础数学非交换代数 直博（结业，无双证）
+- 2015.9 ~ 2021.6 复旦大学 方向：基础数学非交换代数 直博（结业，有结业证，无毕业证学位证）
 - 2011.9 ~ 2015.7 华东理工大学 专业：数学与应用数学 学历：学士
 
 ## <i class="fas fa-briefcase"></i> 工作经历
@@ -42,7 +42,7 @@ download:
 - 统计优化：通过类似 RingBuffer 的数据结构，把统计模块 cpu 占比从 2% 降到 0.1%
 - 通过 trace 分析出，转线程中 Location 信息占比较大，优化后实测这部分 cpu 占比成原来的 1/3
 - 利用内部 trace 工具配合 [perfetto](https://www.ui.perfetto.dev/#!/) 协助分析问题
-- log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。
+- log 重构：确保线程安全，分层 loglevel 提前退出，支持私有参数和配置下发，开启 Wformat，规范接口，细节完善，spdlog 改进，完备内部文档。log 模块负责人, reviewer
 - 借助 log 和堆栈信息结合汇编和源代码协助处理 crash 和 ANR 等稳定性问题
 - 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
 - 增加上行音频分段延迟统计功能

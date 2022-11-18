@@ -41,7 +41,7 @@ download:
 - The cpu ratio of the statistical module is reduced from 2% to 0.1% using a data structure similar to RingBuffer
 - Location information in the transfer thread that counts found by trace. This part reduces about 2/3 cpu time after optimization
 - Log refactor: including thread-safe, hierarchical loglevel early return, support scrite key and configuration delivery, enable Wformat, specification interface, refine details, refine spdlog, complete internal documentation
-- Find potential bugs by some complie options of clang, keep stability in owned to sanitizer like Asan, Lsan, Msan, Tsan, UBsan
+- Find potential bugs by some complie options of clang, keep stability using sanitizer like Asan, Lsan, Msan, Tsan, UBsan
 - Help fix crash and ANR using log and dump
 - Add feature: uplink segment audio delay statistics
 - Add feature: big active delay in special version
