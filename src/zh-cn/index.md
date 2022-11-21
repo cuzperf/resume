@@ -46,7 +46,7 @@ download:
 - 借助 log 和堆栈信息结合汇编和源代码协助处理 crash 和 ANR 等稳定性问题
 - 利用 clang 的一些编译选项白盒检测并修复潜在 bug，以及 Asan, Lsan, Msan, Tsan, UBsan 等提前检测可能稳定性问题
 - 增加上行音频分段延迟统计功能
-- 在特殊版上提供主动增加延迟的功能（远比想象中复杂）
+- 在特殊版上提供主动增加延迟的功能
 - windows arm64 的编译工作（基于 gn-ninja 编译系统）
 
 <div STYLE="page-break-after: always;"></div>
