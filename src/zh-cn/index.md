@@ -37,7 +37,7 @@ download:
 ## <i class="fas fa-briefcase"></i> 工作经历
 
 
-2021.07.07 ~ 2022.10.24 声网 Agora
+2021.07.07 ~ 2022.10.24 声网 Agora C++ SDK 开发工程师
 
 - 统计优化：通过类似 RingBuffer 的数据结构，把统计模块 cpu 占比从 2% 降到 0.1%
 - 通过 trace 分析出，转线程中 Location 信息占比较大，优化后实测这部分 cpu 占比成原来的 1/3

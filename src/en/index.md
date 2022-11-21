@@ -36,7 +36,7 @@ download:
 
 ## <i class="fas fa-briefcase"></i> Work Experience
 
-2021.07.07 ~ 2022.10.24 Agora.io
+2021.07.07 ~ 2022.10.24 Agora.io C++ SDK engineer
 
 - The cpu ratio of the statistical module is reduced from 2% to 0.1% using a data structure similar to RingBuffer
 - Location information in the transfer thread that counts found by trace. This part reduces about 2/3 cpu time after optimization
