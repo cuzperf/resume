@@ -38,6 +38,21 @@ download:
 ## <i class="fas fa-briefcase"></i> 工作经历
 
 
+### 在 Agora 的收获
+
+作为第一份工作
+
+- 如何快速上手大型的工程代码
+- git 的熟悉使用
+- 权限（保护自己），优先级（工作是做不完的）
+- 开发流程（jira 提需求，对需求，设计（Think twice, code once)，编码，UT，review
+- gtest(测试), gn-ninja（编译），接口设计，解耦，重构的优劣势，clang 各种 sanitizer 的使用，clang-format，clang-tidy，lldb 的使用，trace 性能分析工具，全平台开发入门
+- C/C++ 的很多误解消除（包括但不限于，vector 倍增，std::move 作用，函数声明，类型声明。
+- C/C++ 技能增强： 多线程实战，`std::move`, template, 类性萃取，匿名 namespace
+- 汇编语言，架构设计，计算机体系结构
+
+-----------------------------------
+
 2021.07.07 ~ 2022.10.24 声网 Agora C++ SDK 开发工程师
 
 - 统计优化：通过类似 RingBuffer 的数据结构，把统计模块 cpu 占比从 2% 降到 0.1%
