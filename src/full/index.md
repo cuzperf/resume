@@ -193,6 +193,15 @@ leave channel 是否要推完，mute 的时候要不要关闭摄像头（跟这�
 
 本科就读与华东理工大学数学系，大学期间参加过 acm 竞赛，拿了两次银奖，2015年本科毕业后报送直博去复旦读基础数学，6年后因个人对研究课题不报希望，与 2021.6 月结业，2021.7 月入职声网 Agora 作 C++ SDK 开发，边工作便学习计算机底层知识。
 
+My name is ChenZhipeng, Graduated from Department of Mathematics, East China University of Science and Technology. I participated in the regional competition of acm-icpc and won two silver medals during college. After graduated in 2015, I went to  Fudan University pursue a doctoral degree Pursue a PhD degree in mathematics, but quit 6 years later. I joined Agora in July 2021 as a C++ SDK developer, learning basic computer knowledge after working.
+
+Now I'm similar with c99/C++17 and some clang compile options.
+
+- Familiar to C99/C++17, and various compilation options, focus on code quality (in owned to modern complier) and high-performance skills
+- Find timeconsuming part using perf/perfetto, WPR/WPA, instruction/speedscope and trace. Write easy-to-read and easy-to-compiler-optimized code
+- Know little about Python (used for gn-ninja build system)
+- Keep on writing blog and learing low-level computer knowledge, strive to become a qualified computer practitioner
+
 > 博客退学细节：前两年学基础知识，第三年读文章读专著找课题，第四，第五年专注于课题，但结果甚微，然后第六年自信心也崩塌了，也没有补助（没文章什么都不好申请，家里穷，没脸要钱，疫情也没法做家教），然后退了。以前本科的时候专业第一，比较顺比较膨胀，越难的问题也要做，然后才知道自己几斤几量。工作一年之后自信心慢慢的能找回了。
 
 目前
