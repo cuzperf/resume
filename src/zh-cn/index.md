@@ -22,6 +22,9 @@ contact:
   - icon: fas fa-phone-alt
     text: 18817337226
     url: tel:18817337226
+  - icon: fa fa-birthday-cake
+    text: 1994.02
+    url:
 # PDF下载链接
 download:
   title: 下载简历
