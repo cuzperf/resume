@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index,follow">
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>resume_title</title>
+    
+      <meta name="keywords" content="Resume,Hexo,Resume Theme">
+    
+    
+      <meta name="description" content="This is a cool resume theme for hexo.">
+    
+
+    <!-- import meta -->
+    
+      
+        <meta name='theme-color' content='#FFFFFF'>
+      
+        <meta name='msapplication-TileColor' content='#1BC3FB'>
+      
+        <meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/browserconfig.xml'>
+      
+    
+    <!-- import link -->
+    
+      
+        <link rel='shortcut icon' type='image/x-icon' href='https://cuzperf.cn/img/favicon.ico'>
+      
+        <link rel='icon' type='image/x-icon' sizes='32x32' href='https://cuzperf.cn/img/cuzperf.png'>
+      
+        <link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cuzperf.cn/img/cuzperf.png'>
+      
+        <link rel='mask-icon' color='#1BC3FB' href='https://cuzperf.cn/img/cuzperf.png'>
+      
+        <link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>
+      
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+    
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5/dist/jquery.fancybox.min.css">
+
+    
+    <!-- style.css -->
+    
+      
+<link rel="stylesheet" href="/resume/css/page.css">
+
+    
+  <meta name="generator" content="Hexo 5.3.0"></head>
+  <body class="docs">
+    <div id="mobile-bar">
+      <a class="menu-button fas fa-bars"></a>
+      <h2 class="nav-title">resume_title</h2>
+      
+        <a class="menu-button right fas fa-download" target="_blank" rel="noopener" href="https://github.com/cuzperf/resume"></a>
+      
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js"></script>
+
+    <script>
+      Vue.config.productionTip = false
+      window.PAGE_TYPE = "resume"
+    </script>
+
+    <div id="main" class="fix-sidebar">
+      <div class="sidebar">
+  <div class="sidebar-inner">
+    <header class='header'>
+      <h2>your name</h2>
+      
+      <div class='meta'>
+        
+          <p><a target="_blank" rel="noopener" href='https://resume.js.org'>
+            <i class="fas fa-globe-europe fa-fw"></i>&nbsp;https://resume.js.org</a></p>
+        
+          <p><a >
+            <i class="fas fa-envelope fa-fw"></i>&nbsp;your email</a></p>
+        
+          <p><a href='tel:10086'>
+            <i class="fas fa-phone-alt fa-fw"></i>&nbsp;1xxxxxxxxxx</a></p>
+        
+      </div>
+    <hr><br>
+    </header>
+    <div class="list">
+      <ul class="menu-root">
+        
+          <li>
+            <a href="/resume/index.html" class="sidebar-link current"></a>
+          </li>
+        
+          <li>
+            <a href="/resume/en/index.html" class="sidebar-link current"></a>
+          </li>
+        
+          <li>
+            <a href="/resume/full/index.html" class="sidebar-link current"></a>
+          </li>
+        
+          <li>
+            <a href="/resume/zh-cn/index.html" class="sidebar-link current"></a>
+          </li>
+        
+      </ul>
+    </div>
+    
+      <div class="footer">
+        <a class="button" target="_blank" rel="noopener" href="https://github.com/cuzperf/resume"><i class="fab fa-github"></i> github link</a>
+      </div>
+    
+  </div>
+</div>
+
+<div class="content with-sidebar">
+  <div class='resume-header'>
+    
+      <div class='avatar'><img no-lazy class='avatar' src='img/avatar.jpeg'/></div>
+    
+    <h1 class='resume-title'>resume_title</h1>
+    <p class='description'>This is a cool resume theme for hexo.</p>
+    
+  </div>
+  
+<center>
+<a href='en/'>cuzperf's Resume</a> | <a href='zh-cn/'>陈智鹏的简历</a>
+</center>
+
+
+<h2 id="原作者简历模版"><a href="#原作者简历模版" class="headerlink" title="原作者简历模版"></a>原作者简历模版</h2><p><a target="_blank" rel="noopener" href="https://resume.js.org/zh-cn">https://resume.js.org/zh-cn</a></p>
+<h2 id="Hexo-个人简历使用教程"><a href="#Hexo-个人简历使用教程" class="headerlink" title="Hexo 个人简历使用教程"></a>Hexo 个人简历使用教程</h2><ul>
+<li>fork <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/resume-docs">https://github.com/xaoxuu/resume-docs</a>（也可以 fork 本 <a target="_blank" rel="noopener" href="https://github.com/cuzperf/resume">repo</a>）</li>
+<li><code>git submodule update --init</code> 安装主题（可能不需要）</li>
+<li><code>npm i</code> 看看效果（如果有报错可能需要 <code>npm install hexo-deployer-git</code>）</li>
+<li>修改个人信息: <code>_config.yml</code> 和 <code>src</code> 下的内容，以及 <code>themes/resume/_config.yml</code> 中的 copyright</li>
+<li>修改主题（可选）</li>
+<li>正常的 <code>hexo c</code>, <code>hexo g</code>, <code>hexo s</code> 预览</li>
+</ul>
+<h2 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h2><ul>
+<li>fork <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-resume">https://github.com/xaoxuu/hexo-theme-resume</a>，然后自行魔改</li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/pcjustin/article/details/79350987">移出原有的 git submodule</a></li>
+<li><code>git submodule add https://username@github.com/username/hexo-theme-resume.git themes/resume</code> 添加自己的</li>
+</ul>
+
+  
+</div>
+
+    </div>
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js"></script>
+
+    
+
+    
+      <footer id="footer">
+        <p><p><a href="/">Copyright © 2022 cuzperf</a></p>
+</p>
+      </footer>
+    
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js"></script>
+
+    
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js"></script>
+
+    
+
+    
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5/dist/jquery.fancybox.min.js"></script>
+      <script>
+        let LAZY_LOAD_IMAGE = "[object Object]";
+        $("body").find("fancybox").find("img").each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+             if (LAZY_LOAD_IMAGE) {
+               $(element).attr("href", $(this).attr("data-original"));
+             }
+            $(this).wrap(element);
+        });
+      </script>
+    
+
+  <script>'use strict';'serviceWorker'in navigator&&navigator.serviceWorker.register('service-worker.js').then(function(a){a.onupdatefound=function(){var b=a.installing;b.onstatechange=function(){switch(b.state){case'installed':navigator.serviceWorker.controller?console.log('New or updated content is available.'):console.log('Content is now available offline!');break;case'redundant':console.error('The installing service worker became redundant.');}}}}).catch(function(a){console.error('Error during service worker registration:',a)});
+</script></body></html>
