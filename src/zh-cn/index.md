@@ -66,7 +66,7 @@ download:
 
 - 给 [oi-wiki](https://oi-wiki.org/) 贡献过[平行四边形优化DP页面](https://oi-wiki.org/dp/opt/quadrangle/)
 - 给 [C++ 白皮书](https://github.com/Cpp-Club/Cxx_HOPL4_zh/commit/7da2e9889b51043f6834322004a24b2e7bad776a) 修了一个逻辑错误
-- 完善给当前简历模版 [resume-docs](https://github.com/xaoxuu/resume-docs/commit/966a3e46f6f3e209875547c850b12c1ed972cf8a) 和主题 [hexo-theme-resume](https://github.com/xaoxuu/hexo-theme-resume/commit/cb818740b7912983e58ed025048b0eb9d1b91821)
+- 完善了当前简历模版 [resume-docs](https://github.com/xaoxuu/resume-docs/commit/966a3e46f6f3e209875547c850b12c1ed972cf8a) 和主题 [hexo-theme-resume](https://github.com/xaoxuu/hexo-theme-resume/commit/cb818740b7912983e58ed025048b0eb9d1b91821)
 - 给 [cf-tool](https://github.com/izlyforever/cf-tool/releases/tag/v1.0.5) 提供了最新适配包
 - 给 gcc 提交过 constexpr 的 [bug](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105565)，但由于无法避免就直接关了
 - 竞赛级 [cpp 库](https://github.com/izlyforever/cpplibforCP)，并提供[文档](https://izlyforever.github.io/cpplibforCP/)
