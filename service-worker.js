@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/resume/css/page.css","3925392756073e2e30e02ed64d622af2"],["/resume/css/style.min.css","16a4cc20ac2ecce2dfd8bc11dcf43592"],["/resume/css/vue-pdf.css","87f334c6ccfc3a397bf773e2f22a6767"],["/resume/en/index.html","d2a6527540c104b8ea9f8705b3d3294e"],["/resume/full/index.html","5529317625035e2c8e9faee22de26351"],["/resume/img/cuzperf.jpg","7eb80b3d696c6f9b3278e7aa10d4664f"],["/resume/index.html","58950db8bdd8df7b6240f2bc404bda76"],["/resume/js/common.js","ae798d30af603c3cbf2fa6549151dd0b"],["/resume/js/css.escape.js","fe4db48c9e3f272a6d12cf1312de889e"],["/resume/js/smooth-scroll.min.js","53a7fcc785e987d5ed08302f36de6653"],["/resume/zh-cn/index.html","87ed2cd8e00235236a1265f70a03f2fa"]];
+var precacheConfig = [["/resume/css/page.css","3925392756073e2e30e02ed64d622af2"],["/resume/css/style.min.css","16a4cc20ac2ecce2dfd8bc11dcf43592"],["/resume/css/vue-pdf.css","87f334c6ccfc3a397bf773e2f22a6767"],["/resume/en/index.html","276197c02f7d53a311e3e1c7b148af09"],["/resume/full/index.html","06795a70d7297d31a81fa83c387b8583"],["/resume/img/cuzperf.jpg","7eb80b3d696c6f9b3278e7aa10d4664f"],["/resume/index.html","ef2062c57eacd1d4ea4d84f171351220"],["/resume/js/common.js","ae798d30af603c3cbf2fa6549151dd0b"],["/resume/js/css.escape.js","fe4db48c9e3f272a6d12cf1312de889e"],["/resume/js/smooth-scroll.min.js","53a7fcc785e987d5ed08302f36de6653"],["/resume/zh-cn/index.html","f7f041d46e6a173a67254a0b46172821"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
